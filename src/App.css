@@ -4,6 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+.active {
+  border-bottom: 3px solid #61dafb;
+}
 
 .logo {
   height: 6em;

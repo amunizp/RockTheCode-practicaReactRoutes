@@ -11,9 +11,15 @@ function App() {
       </header>
       <div>
         <nav>
-          <NavLink to=''>Home 🏘️</NavLink>
-          <NavLink to='about'>About ℹ️</NavLink>
-          <NavLink to='Tasks'>Tasks</NavLink>
+          <NavLink to='' activeClassName='active'>
+            Home 🏘️
+          </NavLink>
+          <NavLink to='about' activeClassName='active'>
+            About ℹ️
+          </NavLink>
+          <NavLink to='Tasks' activeClassName='active'>
+            Tasks
+          </NavLink>
         </nav>
       </div>
       <main>
